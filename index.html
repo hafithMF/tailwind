@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+<div class="bg-gradient-to-r from-blue-700 to-indigo-700 text-white flex justify-between items-center px-10 py-6 shadow-lg">
+    <div class="text-3xl font-extrabold tracking-wider hover:scale-110 transition-transform duration-300">SMK TI BAZMA</div>
+    <ul class="flex space-x-10 text-lg">
+        <li><a href="#" class="hover:text-yellow-400 transition-colors duration-300 hover:scale-105 transform">Home</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition-colors duration-300 hover:scale-105 transform">About</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition-colors duration-300 hover:scale-105 transform">Blog</a></li>
+        <li><a href="#" class="hover:text-yellow-400 transition-colors duration-300 hover:scale-105 transform">Contact</a></li>
+    </ul>
+</div>
+
+<!-- Header -->
+<header class="bg-gradient-to-r from-blue-600 to-indigo-500 text-white py-20 text-center shadow-inner transform transition-transform duration-500 hover:scale-105">
+    <h1 class="text-5xl md:text-6xl font-bold drop-shadow-lg ">WELCOME</h1>
+</header>
+
+<!-- Hero Section -->
+<section class="relative h-96 bg-cover bg-center text-white flex justify-center items-center overflow-hidden" style="background-image: url('https://via.placeholder.com/1600x400');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 text-5xl md:text-6xl font-extrabold">Teks Hero Section</div>
+</section>
+
+<!-- Section -->
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-12 p-12 items-center">
+    <div class="lg:order-2 transform hover:scale-105 transition-transform duration-300">
+        <img src="https://via.placeholder.com/400x300" alt="Contoh Gambar" class="w-full h-auto rounded-xl shadow-lg">
+    </div>
+    <div class="lg:order-1 flex flex-col justify-center space-y-6">
+        <p class="text-lg leading-relaxed text-gray-800 animate-fade-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula dapibus eros, non sollicitudin velit suscipit vel. Nullam in arcu at libero fringilla eleifend sed nec mi.</p>
+        <button class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-8 rounded-full shadow-md transform transition-transform hover:scale-110 hover:bg-purple-700 duration-300 focus:ring-4 focus:ring-blue-300">Pelajari Lebih Lanjut</button>
+    </div>
+</section>
+
+<!-- Content Section -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-8 mx-8">
+    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-900 hover:text-indigo-500 transition-colors duration-300">Artikel 1</h2>
+        <p class="text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula dapibus eros, non sollicitudin velit suscipit vel.</p>
+    </div>
+    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-900 hover:text-indigo-500 transition-colors duration-300">Artikel 2</h2>
+        <p class="text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula dapibus eros, non sollicitudin velit suscipit vel.</p>
+    </div>
+    <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 transform hover:scale-105">
+        <h2 class="text-2xl font-semibold mb-4 text-gray-900 hover:text-indigo-500 transition-colors duration-300">Artikel 3</h2>
+        <p class="text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula dapibus eros, non sollicitudin velit suscipit vel.</p>
+    </div>
+</div>
+
+</body>
+</html>
